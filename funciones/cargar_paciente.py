@@ -14,3 +14,4 @@ def cargar_paciente(archivo_clinico):
         paciente = [numero_clinico, nombre, edad, diagnostico, dias_internado]
         archivo_clinico[:] += [paciente]
         seguir = input("desea seguir cargando pacientes? (si/no): ")
+
